@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Projects = () => {
     const projects = [
       {
@@ -66,10 +68,12 @@ const Projects = () => {
               >
                 {/* Image */}
                 <div className="relative h-48 overflow-hidden">
-                  <img
+                  <Image
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover"
+                    width={800}
+                    height={600}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent"></div>
                 </div>

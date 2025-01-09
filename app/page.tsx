@@ -1,5 +1,11 @@
 import Image from "next/image";
-import NavBar from "@/components/navbar"
+import NavBar from "./_components/navbar"
+import Footer from "./_components/footer"
+import Hero from "./_components/hero"
+import Projects from './_components/projects'
+import Partners from './_components/partners'
+
+
 
 export default function Home() {
   return (
@@ -98,6 +104,12 @@ export default function Home() {
     //     </a>
     //   </footer>
     // </div>
-    <NavBar></NavBar>
+    <>
+      <NavBar></NavBar>
+      <Hero></Hero>
+      <Projects></Projects>
+      <Partners></Partners>
+      <Footer></Footer>
+    </>
   );
 }
