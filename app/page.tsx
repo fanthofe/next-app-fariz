@@ -2,8 +2,9 @@ import Image from "next/image";
 import NavBar from "./_components/navbar"
 import Footer from "./_components/footer"
 import Hero from "./_components/hero"
+import Hero2 from "./_components/hero2"
 import Projects from './_components/projects'
-import Partners from './_components/partners'
+import Partners from './_components/skills'
 
 
 
@@ -106,7 +107,8 @@ export default function Home() {
     // </div>
     <>
       <NavBar></NavBar>
-      <Hero></Hero>
+      {/* <Hero></Hero> */}
+      <Hero2></Hero2>
       <Projects></Projects>
       <Partners></Partners>
       <Footer></Footer>

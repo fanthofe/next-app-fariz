@@ -20,6 +20,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#hero {
+  #profile {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
 .clients-carousel > .swiper-wrapper{
   transition-timing-function : linear;
 }
