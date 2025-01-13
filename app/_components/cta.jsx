@@ -29,7 +29,7 @@ const CallToAction = () => {
   }, []);
 
   return (
-    <div id="cta" ref={heightRef} className="absolute inset-0">
+    <div id="cta" ref={heightRef} className="absolute left-0 right-0">
       <div className="absolute inset-0"></div>
       <div className="relative container mx-auto px-4">
         <div 
