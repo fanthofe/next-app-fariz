@@ -1,10 +1,9 @@
 import CardProjects from "./cardProjects";
-import CallToAction from "./cta";
 
 const Projects = () => {
   
     return (
-      <section className="relative py-20 pb-56 bg-gray-50">
+      <section className="py-20 pb-56 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Title */}
           <div className="mb-16">
@@ -13,10 +12,9 @@ const Projects = () => {
                 Mes Projets
               </span>
             </h2>
-            <p className="text-xl text-gray-900 mt-10">
-              J'essaie de mettre à jour régulièrement afin de vous apporter mes dernières réalisations.
-              <br></br>
-              Du site vitrine à l'application de gestion, j'ai décidé de vous montrer mes meilleures réalisations.
+            <p className="text-xl text-justify text-gray-900 mt-10">
+              Chaque projet est une opportunité pour moi de repousser les limites de la créativité et de l'innovation. 
+              Mon approche centrée sur l'utilisateur et ma passion pour le design me permettent de créer des sites web qui répondent aux besoins de mes clients.
             </p>
             {/* <div className="mt-4 h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div> */}
           </div>
@@ -24,7 +22,6 @@ const Projects = () => {
           {/* Projects Grid */}
           <CardProjects></CardProjects>
         </div>
-        <CallToAction></CallToAction>
       </section>
     );
   };

@@ -2,7 +2,7 @@ import CarousselSkills from './carousselSkills';
 
 const Skills = () => {
   return (
-    <section id="skills" className="relative py-32 bg-gray-900">
+    <section id="skills" className="relative pb-32 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600 sm:text-4xl">

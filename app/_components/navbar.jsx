@@ -8,7 +8,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      setIsScrolled(window.scrollY > 400);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -28,7 +28,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <a href="#" className="nav-link">Home</a>
               <a href="#" className="nav-link">About</a>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 Get Started
               </button>
             </div>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden">

@@ -1,48 +1,41 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CardProjects = () => {
     const projects = [
       {
         id: 1,
-        title: "E-commerce Modern",
-        image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&auto=format&fit=crop&q=60",
-        description: "Application e-commerce complète avec panier, paiement et gestion des commandes.",
-        tags: ["React", "Node.js", "MongoDB"]
+        title: "Momentum",
+        image: "momentum.png",
+        description: "J'ai beaucoup aimé travailler sur ce projet car le style graphique simple et épurée me plait énormément. Cette refonte a été très instructive pour moi car il s'agit de l'un de mes premiers projet d'intégration avec Wordpress. J'utilise essentiellement le plugin ACF pour l'implémentation des données via le back-office (php) et du javascript vanilla pour la partie dynamique.",
+        tags: ["Refonte du site"],
+        url: "https://www.momentum-assurances.fr/"
       },
       {
         id: 2,
-        title: "Dashboard Analytics",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60",
-        description: "Tableau de bord interactif avec visualisation de données en temps réel.",
-        tags: ["Vue.js", "D3.js", "Firebase"]
+        title: "CSB School",
+        image: "csb.png",
+        description: "Pour ce site vitrine, j'utilise également Wordpress (ACF) et du JS Vanilla. Chaque projet est challengeant mais celui-ci l'a été d'autant plus. En ne développant que deux à trois pages, celle qui a été la plus instructive et la page de 'Formation sur mesure'. En effet, les détails, rendant la page plus attractive, demandent du temps à développer car il faut prendre en compte un ensemble d'information (css, responsive)",
+        tags: ["Refonte partielle"],
+        url: "https://www.csb.school/formation-sur-mesure/"
+
       },
       {
         id: 3,
-        title: "Application Mobile",
-        image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&auto=format&fit=crop&q=60",
-        description: "Application mobile cross-platform pour la gestion de tâches et la productivité.",
-        tags: ["React Native", "Redux", "Node.js"]
+        title: "CER Réseau",
+        image: "cer.png",
+        description: "J'ai participé à la mise en place d'un store locator développé en Symfony / Twig pour faciliter le temps de chargement des données. A partir d'une maquette sous AdobeXD, j'ai pu facilement intégrer tous les éléments de cette page afin qu'elle soit esthétique et responsive.",
+        tags: ["Refonte partielle"],
+        url: "https://auto-ecole.cer-reseau.com/nos-centres-de-formation/rhone-69/360-cer-oullins-oullins/"
+
       },
       {
         id: 4,
-        title: "Plateforme Education",
-        image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&auto=format&fit=crop&q=60",
-        description: "Plateforme d'apprentissage en ligne avec cours vidéo et quiz interactifs.",
-        tags: ["Next.js", "TypeScript", "PostgreSQL"]
-      },
-      {
-        id: 5,
-        title: "Réseau Social",
-        image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&auto=format&fit=crop&q=60",
-        description: "Réseau social professionnel avec messagerie instantanée et partage de contenu.",
-        tags: ["React", "GraphQL", "AWS"]
-      },
-      {
-        id: 6,
-        title: "Portfolio Artiste",
-        image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=800&auto=format&fit=crop&q=60",
-        description: "Site vitrine moderne pour artiste avec galerie d'œuvres et système de réservation.",
-        tags: ["Gatsby", "Tailwind", "Strapi"]
+        title: "Dr. Cinik",
+        image: "cinik.png",
+        description: "Je suis intervenu uniquement sur la refonte de la page d'accueil. Etant également l'un de mes premiers projets d'intégration avec Wordpress, je ne suis pas peu fier du résultat.",
+        tags: ["Refonte partielle"],
+        url: "https://emrahcinik.com/fr/"
       }
     ];
   
@@ -54,14 +47,16 @@ const CardProjects = () => {
             className="rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
             >
               <div className="relative h-48 overflow-hidden">
+                <Link className="pointer-events-auto" href={project.url}>
                   <Image
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                  width={800}
-                  height={600}
+                    src={`/projects/${project.image}`}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                    width={800}
+                    height={600}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent"></div>
+                </Link>
+                  {/* <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent"></div> */}
               </div>
             </div>
 

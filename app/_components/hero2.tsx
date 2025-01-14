@@ -11,7 +11,7 @@ const Hero = () => {
 
   return (
     <section id='hero'>
-      <div className="bg-gray-900 min-h-screen flex justify-center items-center pt-20">
+      <div className="bg-gray-900 min-h-screen flex justify-center items-center">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
           <div className="relative flex items-center justify-center p-12 animate-fade-in">
             <div id='profile' className="absolute left-40 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 overflow-hidden mb-6">
