@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
+import Link from 'next/link';
 
 const CallToAction = () => {
   const handleMouseEnter = () => {
@@ -43,9 +44,11 @@ const CallToAction = () => {
             <p className="text-white text-lg mb-8 max-w-2xl mx-auto">
               Je serai heureux d’échanger avec vous pour vous aider à transformer vos besoins en une expérience web exceptionnelle
             </p>
-            <button className="bg-gradient-to-r border-none from-blue-500 to-cyan-400 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/20 active:scale-95 transition-all duration-300">
+            <Link 
+              href="mailto:anthoferfariz@gmail.com"
+              className="bg-gray-900 border-none text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/20 active:scale-95 transition-all duration-300">
               Par mail
-            </button>
+            </Link>
           </div>
         </div>
       </div>

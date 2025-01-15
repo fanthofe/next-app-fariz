@@ -13,7 +13,7 @@ const Footer = () => {
                 Fariz Dev
               </h3>
               <p className="text-gray-400">
-                Développeur web freelance passionné par la création de solutions web innovantes et performantes.
+                Développeur Fullstack passionné par la création de solutions web innovantes et performantes.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="hover:text-blue-500 transition-colors">
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
   
             {/* Quick Links */}
-            <div>
+            {/* <div>
               <h4 className="text-lg font-semibold mb-4">Navigation</h4>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:text-blue-500 transition-colors">Accueil</a></li>
@@ -44,10 +44,10 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-blue-500 transition-colors">Projets</a></li>
                 <li><a href="#" className="hover:text-blue-500 transition-colors">Contact</a></li>
               </ul>
-            </div>
+            </div> */}
   
             {/* Services */}
-            <div>
+            {/* <div>
               <h4 className="text-lg font-semibold mb-4">Services</h4>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:text-blue-500 transition-colors">Développement Web</a></li>
@@ -55,10 +55,10 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-blue-500 transition-colors">UI/UX Design</a></li>
                 <li><a href="#" className="hover:text-blue-500 transition-colors">Consulting</a></li>
               </ul>
-            </div>
+            </div> */}
   
             {/* Contact */}
-            <div>
+            {/* <div>
               <h4 className="text-lg font-semibold mb-4">Contact</h4>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2">
@@ -81,7 +81,7 @@ const Footer = () => {
                   <span>Paris, France</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
   
