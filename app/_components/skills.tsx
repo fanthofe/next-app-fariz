@@ -9,14 +9,14 @@ const Skills = () => {
             Fariz Anthofer
           </h2>
           <p className="text-2xl px-20 mt-10">
-            Avec plus de 2 ans d'expérience en tant que développeur Fullstack, j'ai acquis 
-            une solide expertise grâce à la diversité d'applications que j'ai pu développé. 
-            A l'aise sur de multiples environnements de travail (CMS, Microservices), je suis capable
-            de m'adapter rapidement afin de répondre au mieux aux besoins clients. 
+            Avec plus de 2 ans d&apos;expérience en tant que développeur Fullstack, j&apos;ai acquis 
+            une solide expertise grâce à la diversité d&apos;applications que j&apos;ai pu développé. 
+            A l&apos;aise sur de multiples environnements de travail (CMS, Microservices), je suis capable
+            de m&apos;adapter rapidement afin de répondre au mieux aux besoins clients. 
             <br></br>
             <br></br>
-            En effet, mon principal objectif, c'est le Client. 
-            Avec ma sensibilité UX/UI, j'ai à coeur de créer des interfaces utilisateur intuitives et esthétiques. 
+            En effet, mon principal objectif, c&apos;est le Client. 
+            Avec ma sensibilité UX/UI, j&apos;ai à coeur de créer des interfaces utilisateur intuitives et esthétiques. 
           </p>
         </div>
       </div>

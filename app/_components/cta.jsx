@@ -1,23 +1,9 @@
 'use client'
 
 import React, { useEffect, useRef } from 'react';
-import confetti from 'canvas-confetti';
 import Link from 'next/link';
 
 const CallToAction = () => {
-  const handleMouseEnter = () => {
-    confetti({
-      particleCount: 30,
-      spread: 40,
-      origin: { y: 0.6 },
-      colors: ['#60A5FA', '#34D399', '#A78BFA', '#F472B6'],
-      gravity: 2,
-      scalar: 0.7,
-      ticks: 50,
-      disableForReducedMotion: true
-    });
-  };
-
   const heightRef = useRef(null);
 
   useEffect(() => {
@@ -34,9 +20,7 @@ const CallToAction = () => {
       <div className="absolute inset-0"></div>
       <div className="relative container mx-auto px-4">
         <div 
-          className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl shadow-2xl p-12 max-w-4xl mx-auto transform hover:-translate-y-3 transition-all duration-300"
-          onMouseEnter={handleMouseEnter}
-        >
+          className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl shadow-2xl p-12 max-w-4xl mx-auto transform hover:-translate-y-3 transition-all duration-300">
           <div className="text-center">
             <h2 className="text-4xl font-bold mb-6 text-white">
               Contactez moi 

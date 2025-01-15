@@ -27,19 +27,6 @@ const Navbar = () => {
             </span>
           </div>
 
-          {/* Desktop Menu */}
-          {/* <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              <a href="#" className="nav-link">Home</a>
-              <a href="#" className="nav-link">About</a>
-              <a href="#" className="nav-link">Services</a>
-              <a href="#" className="nav-link">Contact</a>
-              <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity">
-                Get Started
-              </button>
-            </div>
-          </div> */}
-
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button

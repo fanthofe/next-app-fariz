@@ -11,7 +11,7 @@ const CarousselSkills = () => {
     {
       id: 1,
       name: "php",
-      url: "php.png"
+      url: "php.svg"
     },
     {
       id: 2,
@@ -54,13 +54,13 @@ const CarousselSkills = () => {
     {
       id: 2,
       name: "Tailwind",
-      url: "tailwindcss.svg"
+      url: "tailwindcss.png"
 
     },
     {
       id: 3,
       name: "Github",
-      url: "github.svg"
+      url: "github.png"
 
     },
     {
@@ -82,7 +82,7 @@ const CarousselSkills = () => {
     {
       id: 7,
       name: "MariaDB",
-      url: "mariadb.png"
+      url: "mariadb.svg"
     }
   ];
 
