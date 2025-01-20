@@ -13,7 +13,7 @@ const Projects = () => {
               </span>
             </h2>
             <p className="text-xl text-justify text-gray-900 mt-10">
-              Chaque projet est une opportunité pour moi de repousser les limites de la créativité et de l'innovation. 
+              Chaque projet est une opportunité pour moi de repousser mes limites en termes de créativité et d'innovation. 
               Mon approche centrée sur l'utilisateur et ma passion pour le design me permettent de créer des sites web qui répondent aux besoins de mes clients.
             </p>
             {/* <div className="mt-4 h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div> */}

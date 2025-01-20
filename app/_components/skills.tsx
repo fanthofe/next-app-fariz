@@ -8,8 +8,8 @@ const Skills = () => {
           <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600 sm:text-4xl">
             Fariz Anthofer
           </h2>
-          <p className="text-2xl px-20 mt-10">
-            Avec plus de 2 ans d&apos;expérience en tant que développeur Fullstack, j&apos;ai acquis 
+          <p className="text-2xl px-0 md:px-10 lg:px-20 mt-10">
+            Avec plus de 3 ans d&apos;expérience en tant que développeur Fullstack, j&apos;ai acquis 
             une solide expertise grâce à la diversité d&apos;applications que j&apos;ai pu développé. 
             A l&apos;aise sur de multiples environnements de travail (CMS, Microservices), je suis capable
             de m&apos;adapter rapidement afin de répondre au mieux aux besoins clients. 

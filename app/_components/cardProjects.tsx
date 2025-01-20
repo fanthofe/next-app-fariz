@@ -7,7 +7,7 @@ const CardProjects = () => {
         id: 1,
         title: "Momentum",
         image: "momentum.png",
-        description: "J'ai beaucoup aimé travailler sur ce projet car le style graphique simple et épurée me plait énormément. Cette refonte a été très instructive pour moi car il s'agit de l'un de mes premiers projet d'intégration avec Wordpress. J'utilise essentiellement le plugin ACF pour l'implémentation des données via le back-office (php) et du javascript vanilla pour la partie dynamique.",
+        description: "J'ai beaucoup aimé travailler sur ce projet car le style graphique simple et épurée me plait énormément. Cette refonte a été très instructive pour moi car il s'agit de l'un de mes premiers projets d'intégration avec Wordpress. J'utilise essentiellement le plugin ACF pour l'implémentation des données via le back-office (php) et du javascript vanilla pour la partie dynamique.",
         tags: ["Refonte du site"],
         url: "https://www.momentum-assurances.fr/"
       },
@@ -15,7 +15,7 @@ const CardProjects = () => {
         id: 2,
         title: "CSB School",
         image: "csb.png",
-        description: "Pour ce site vitrine, j'utilise également Wordpress (ACF) et du JS Vanilla. Chaque projet est challengeant mais celui-ci l'a été d'autant plus. En ne développant que deux à trois pages, celle qui a été la plus instructive et la page de 'Formation sur mesure'. En effet, les détails, rendant la page plus attractive, demandent du temps à développer car il faut prendre en compte un ensemble d'information (css, responsive)",
+        description: "Pour ce site vitrine, j'utilise également Wordpress (ACF) et du JS Vanilla. Chaque projet est challengeant mais celui-ci l'a été d'autant plus parce que le développement de cette page était complexe techniquement (objet de design spécifique, responsive).",
         tags: ["Refonte partielle"],
         url: "https://www.csb.school/formation-sur-mesure/"
 

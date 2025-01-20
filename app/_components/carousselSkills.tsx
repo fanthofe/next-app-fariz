@@ -90,8 +90,22 @@ const CarousselSkills = () => {
     <div>
       <Swiper
         modules={[Autoplay, Navigation]}
-        spaceBetween={20}
-        slidesPerView={5}
+        breakpoints={
+          {
+            320: {
+              slidesPerView: 3,
+              spaceBetween: 10
+            },
+            640: {
+              slidesPerView: 4,
+              spaceBetween: 15
+            },
+            1024: {
+              slidesPerView: 5,
+              spaceBetween: 20
+            }
+          }
+        }
         allowTouchMove={false}
         autoplay={{
           delay: 0,
@@ -119,8 +133,22 @@ const CarousselSkills = () => {
       <Swiper
         modules={[Autoplay, Navigation]}
         allowTouchMove={false}
-        spaceBetween={20}
-        slidesPerView={5}
+        breakpoints={
+          {
+            320: {
+              slidesPerView: 3,
+              spaceBetween: 10
+            },
+            640: {
+              slidesPerView: 4,
+              spaceBetween: 15
+            },
+            1024: {
+              slidesPerView: 5,
+              spaceBetween: 20
+            }
+          }
+        }
         autoplay={{
           delay: 0,
           reverseDirection: true,

@@ -22,8 +22,13 @@ body {
 
 #hero {
   #profile {
-    width: 35rem;
-    height: 35rem;
+    width: 25rem;
+    height: 25rem;
+
+    @media (min-width: 640px) {
+      width: 35rem;
+      height: 35rem;
+    }
   }
 }
 
